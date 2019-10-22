@@ -1,0 +1,29 @@
+
+
+$blue: #1c2f44;
+$green: #8bc34a;
+
+$primary: $blue;
+$success: $green;
+
+//$border-radius:            1.2rem !default;   //.25rem !default;
+//$border-radius-lg:         1.2rem !default;   //.3rem !default;
+//$border-radius-sm:         1rem !default;   //.2rem !default;
+
+.page-item {
+    margin-left : 10px;
+    margin-right : 10px;
+}
+
+.page-link {
+    
+    border: none !important;
+}
+
+.btn-success {
+    color : #fff;
+}
+
+.control-label {
+    font-size: 0.9rem;
+}
