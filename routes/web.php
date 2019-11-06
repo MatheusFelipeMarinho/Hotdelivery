@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+if (!Request::ajax()) {
+
+    Route::get('{any?}', 'SpaController@index')->where('any', '.*');;
+
+}
+
+Route::post('registerNewUser', 'Auth\RegisterNewUserController@insert');
+
+Route::post('api/login', 'Auth\LoginController@login');
+
+Route::post('api/logout', 'Auth\LoginController@logout');

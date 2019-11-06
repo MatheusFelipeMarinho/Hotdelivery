@@ -16,36 +16,36 @@
         isHeader
       />
       <NavLink
-        header="Typography"
-        link="/app/typography"
-        iconName="flaticon-list"
-        index="typography"
+        header="Pessoas"
+        link="/app/pessoas"
+        iconName="flaticon-user"
+        index="pessoas"
         isHeader
       />
       <NavLink
-        header="Tables Basic"
-        link="/app/tables"
-        iconName="flaticon-equal-1"
-        index="tables"
+        header="Produtos"
+        link="/app/Produtos"
+        iconName="flaticon-controls-9"
+        index="Produtos"
         isHeader
       />
       <NavLink
-        header="Notifications"
-        link="/app/notifications"
-        iconName="flaticon-star"
-        index="notifications"
+        header="Pedidos"
+        link="/app/Pedidos"
+        iconName="flaticon-file"
+        index="Pedidos"
         isHeader
       />
       <NavLink
         :activeItem="activeItem"
-        header="Components"
+        header="Entrega"
         link="/app/components"
-        iconName="flaticon-network"
-        index="components"
+        iconName="flaticon-map-location"
+        index="Entrega"
         :childrenLinks="[
-          { header: 'Charts', link: '/app/components/charts' },
-          { header: 'Icons', link: '/app/components/icons' },
-          { header: 'Maps', link: '/app/components/maps' },
+          { header: 'Mapas', link: '' },
+          { header: 'Localização', link: '' },
+          { header: 'Planejamento', link: '' },
         ]"
       />
     </ul>

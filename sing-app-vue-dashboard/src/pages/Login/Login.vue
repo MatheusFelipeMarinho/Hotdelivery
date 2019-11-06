@@ -3,44 +3,33 @@
     <b-container>
       <h5 class="auth-logo">
         <i class="fa fa-circle text-gray"></i>
-        Sing App
+       Delivery App
         <i class="fa fa-circle text-warning"></i>
       </h5>
-      <Widget class="widget-auth mx-auto" title="<h3 class='mt-0'>Login to your Web App</h3>" customHeader>
+      <Widget class="widget-auth mx-auto"  customHeader>
         <p class="widget-auth-info">
-            Use your email to sign in.
+            Use seu email para logar.
         </p>
         <form class="mt" @submit.prevent="login">
           <b-alert class="alert-sm" variant="danger" :show="!!errorMessage">
             {{errorMessage}}
           </b-alert>
           <div class="form-group">
-            <input class="form-control no-border" ref="email" required type="email" name="email" placeholder="Email" />
+            <input class="form-control no-border"  placeholder="Email" />
           </div>
           <div class="form-group">
-            <input class="form-control no-border" ref="password" required type="password" name="password" placeholder="Password" />
+            <input class="form-control no-border"  placeholder="Senha" />
           </div>
           <b-button type="submit" size="sm" class="auth-btn mb-3" variant="inverse">Login</b-button>
-          <p class="widget-auth-info">or sign in with</p>
-          <div class="social-buttons">
-            <b-button variant="primary" class="social-button mb-2">
-              <i class="social-icon social-google"></i>
-              <p class="social-text">GOOGLE</p>
-            </b-button>
-            <b-button variant="success" class="social-button">
-              <i class="social-icon social-microsoft"></i>
-              <p class="social-text">MICROSOFT</p>
-            </b-button>
-          </div>
-        </form>
-        <p class="widget-auth-info">
-          Don't have an account? Sign up now!
-        </p>
-        <router-link class="d-block text-center" to="login">Create an Account</router-link>
+
+
+       </form>
+
+        <router-link class="d-block text-center" to="login">Criar uma conta</router-link>
       </Widget>
     </b-container>
     <footer class="auth-footer">
-      2019 &copy; Sing App Vue Admin Dashboard Template.
+      2019 &copy; Hot delivery App.
     </footer>
   </div>
 </template>
@@ -57,20 +46,10 @@ export default {
     };
   },
   methods: {
-    login() {
-      const email = this.$refs.email.value;
-      const password = this.$refs.password.value;
 
-      if (email.length !== 0 && password.length !== 0) {
-        window.localStorage.setItem('authenticated', true);
-        this.$router.push('/app/dashboard');
-      }
-    },
   },
   created() {
-    if (window.localStorage.getItem('authenticated') === 'true') {
-      this.$router.push('/app/main/analytics');
-    }
+
   },
 };
 </script>

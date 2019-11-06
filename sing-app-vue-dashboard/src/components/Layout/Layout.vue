@@ -1,7 +1,7 @@
 <template>
 <div :class="{root: true, chatOpen, sidebarClose, sidebarStatic}">
   <Sidebar />
-  <Helper />
+  <!-- <Helper /> -->
   <div class="wrap">
     <Header />
     <Chat />

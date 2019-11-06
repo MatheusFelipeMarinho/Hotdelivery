@@ -33,7 +33,7 @@
             <div class="input-group-addon d-flex align-items-center">
               <i class="la la-search px-3" />
             </div>
-            <b-input id="search-input" placeholder="Search Dashboard" />
+            <b-input id="search-input" placeholder="Pesquisar" />
           </b-input-group>
         </b-form-group>
       </b-form>
@@ -57,7 +57,7 @@
           <span class="avatar thumb-sm float-left mr-2">
             <img class="rounded-circle" src="../../assets/people/a5.jpg" alt="..." />
           </span>
-          <span class="small">Philip <span class="fw-semi-bold">Smith</span></span>
+          <span class="small">Matheus <span class="fw-semi-bold">Felipe</span></span>
           <span class="ml-1 circle bg-warning text-white fw-bold">13</span>
         </template>
         <Notifications />
