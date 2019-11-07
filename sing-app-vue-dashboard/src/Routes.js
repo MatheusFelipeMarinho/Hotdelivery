@@ -5,7 +5,7 @@ import Layout from '@/components/Layout/Layout';
 import Login from '@/pages/Login/Login';
 import ErrorPage from '@/pages/Error/Error';
 // Core
-import TypographyPage from '@/pages/Typography/Typography';
+import Pessoas from '@/pages/Pessoas/Pessoas';
 
 // Tables
 import TablesBasicPage from '@/pages/Tables/Basic';
@@ -49,22 +49,22 @@ export default new Router({
           component: AnalyticsPage,
         },
         {
-          path: 'typography',
+          path: 'pessoas',
           name: 'TypographyPage',
-          component: TypographyPage,
+          component: Pessoas,
         },
         {
-          path: 'components/icons',
+          path: 'produtos',
           name: 'IconsPage',
           component: IconsPage,
         },
         {
-          path: 'notifications',
+          path: 'pedidos',
           name: 'NotificationsPage',
           component: NotificationsPage,
         },
         {
-          path: 'components/charts',
+          path: 'entregas',
           name: 'ChartsPage',
           component: ChartsPage,
         },
