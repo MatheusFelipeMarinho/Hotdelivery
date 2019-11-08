@@ -15,16 +15,6 @@
           <i class="la la-bars la-lg d-sm-down-none ml-4" />
         </a>
       </b-nav-item>
-      <b-nav-item class="d-md-down-none">
-        <a href="#" class="px-2">
-          <i class="la la-refresh la-lg" />
-        </a>
-      </b-nav-item>
-      <b-nav-item class="d-md-down-none">
-        <a href="#" class="px-2">
-          <i class="la la-times la-lg" />
-        </a>
-      </b-nav-item>
     </b-nav>
     <b-nav>
       <b-form class="d-sm-down-none ml-5" inline>
@@ -42,7 +32,7 @@
       <i class="fa fa-circle text-gray mr-n-sm" />
       <i class="fa fa-circle text-warning" />
       &nbsp;
-      sing
+      Delivery
       &nbsp;
       <i class="fa fa-circle text-warning mr-n-sm" />
       <i class="fa fa-circle text-gray" />
@@ -66,9 +56,11 @@
         <template slot="button-content">
           <i class="la la-cog px-2" />
         </template>
-        <b-dropdown-item><i class="la la-user" /> My Account</b-dropdown-item>
+        <b-dropdown-item><i class="la la-user" /> Minha Conta</b-dropdown-item>
         <b-dropdown-divider />
-        <b-dropdown-item>Calendar</b-dropdown-item>
+        <b-dropdown-item>Calendario
+          
+        </b-dropdown-item>
         <b-dropdown-item>
           Inbox &nbsp;&nbsp;<b-badge variant="danger" pill class="animated bounceIn">9</b-badge>
         </b-dropdown-item>
