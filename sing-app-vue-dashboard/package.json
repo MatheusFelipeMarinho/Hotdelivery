@@ -9,6 +9,9 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.8",
     "animate.css": "^3.6.1",
     "apexcharts": "^3.8.6",
     "awesome-bootstrap-checkbox": "^1.0.1",

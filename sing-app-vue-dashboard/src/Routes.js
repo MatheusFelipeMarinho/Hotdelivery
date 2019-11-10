@@ -50,7 +50,7 @@ export default new Router({
         },
         {
           path: 'pessoas',
-          name: 'TypographyPage',
+          name: 'Pessoaspage',
           component: Pessoas,
         },
         {

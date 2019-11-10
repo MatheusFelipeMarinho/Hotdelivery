@@ -7,12 +7,12 @@
     <div class="row">
         <div class="col-md-6">
           <h5 class="page-title">
-           Pessoas - <span class="fw-semi-bold">Cadastro & Consulta</span>
+           Pessoas - <span class="fw-semi-bold text-muted">Cadastro & Consulta</span>
           </h5>
        </div>
        <div class="col-md-6">
          <button  class="btn btn-warning btn-lg btn pull-right" @click="openPessoaForm()">
-             <span >Adicionar Pessoa</span> 
+             <i class="fa fa-check"></i> <span >Adicionar Pessoa</span> 
         </button>
        </div>
     </div>

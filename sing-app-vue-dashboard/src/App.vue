@@ -19,4 +19,8 @@ export default {
 };
 </script>
 
-<style src="./styles/theme.scss" lang="scss" />
+<style src="./styles/theme.scss" lang="scss">
+
+@import './assets/fontawesome/css/all.css';
+
+</style>

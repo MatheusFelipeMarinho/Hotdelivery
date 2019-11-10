@@ -38,13 +38,13 @@
       />
       <NavLink
         :activeItem="activeItem"
-        header="Entrega"
+        header="Entregas"
         link="/app/components"
         iconName="flaticon-map-location"
         index="Entrega"
         :childrenLinks="[
-          { header: 'Mapas', link: '' },
-          { header: 'Localização', link: '' },
+          { header: 'Mapas', },
+          { header: 'Localização',},
           { header: 'Planejamento', link: '' },
         ]"
       />
