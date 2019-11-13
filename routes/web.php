@@ -11,11 +11,11 @@
 |
 */
 
-if (!Request::ajax()) {
+// if (!Request::ajax()) {
 
-    Route::get('{any?}', 'SpaController@index')->where('any', '.*');;
+//     Route::get('{any?}', 'SpaController@index')->where('any', '.*');;
 
-}
+// }
 
 Route::post('registerNewUser', 'Auth\RegisterNewUserController@insert');
 
