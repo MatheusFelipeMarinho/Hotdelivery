@@ -2,6 +2,14 @@
 
 namespace App\Hotdelivery\RegisterNewUser\Services;
 
+use App\Hotdelivery\RegisterNewUser\Entities\UserEntity;
+use App\Hotdelivery\RegisterNewUser\Entities\AddressEntity;
+use App\Hotdelivery\RegisterNewUser\Entities\CompanyEntity;
+use App\Hotdelivery\RegisterNewUser\Entities\MasterUserEntity;
+
+
+
+
 
 
 class RegisterNewAccount
