@@ -1,7 +1,7 @@
 <template>
 <div>
-    <b-modal ref="modal" :title="title" header-class="border-bottom-0" size="xl">
-     
+    <b-modal ref="modal" class="try-modal" :title="title" header-class="border-bottom-0" size="xl">
+
         <!-- form  -->
         <div class="row">
           <div class="col-md-3">
@@ -10,12 +10,13 @@
         </div>
         <br>
 
-     
+
 
       <!-- form  -->
-      
-     
+
+
   </b-modal>
+
 </div>
 </template>
 
