@@ -22,5 +22,3 @@ Route::post('registerNewUser', 'Auth\RegisterNewUserController@insert');
 Route::post('api/login', 'Auth\LoginController@login');
 
 Route::post('api/logout', 'Auth\LoginController@logout');
-
-Route::post('api/pessoas/index', 'PessoasController@index');
